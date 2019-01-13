@@ -377,8 +377,8 @@ php think install -a 127.0.0.1
 php think install -u root -p 123456
 //配置数据库表名为dbname
 php think install -d dbname
-//配置数据库表前缀为ff_
-php think install -p ff_
+//配置数据库表前缀为ff_ 【设置前缀是 -r 官方文档错误了写成 -p】
+php think install -r ff_
 //强制重新安装FastAdmin
 php think install -f 1
 ```
